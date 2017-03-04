@@ -18,17 +18,9 @@
 #library(ggplot2)
 
 
-#######################################################
-#=============Setup the Working Directory=============#
-#Set the working directory to the project folder by 	#
-#running the appropriate script below. Note, you can 	#
-#run the data off of your OneDrive or DropBox.		#
-#######################################################
 
-setwd("C:\\Users\\Bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5223\\In-Class Exercises\\Data")
-
-#### Below is alternate code to set the workind directory
-workingdirectory = "C:\\Users\\Bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5223\\In-Class Exercises\\Data"
+#### Below is code to set the workind directory
+workingdirectory = " " #set path
 setwd(workingdirectory)
 
 
