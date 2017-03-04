@@ -13,7 +13,7 @@ library(tree)
 #run the data off of your OneDrive or DropBox.		#
 #######################################################
 
-workingdirectory = "C:\\Users\\bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5223\\In-Class Exercises"
+workingdirectory = ""
 setwd(workingdirectory)
 
 
