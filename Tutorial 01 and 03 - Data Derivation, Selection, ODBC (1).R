@@ -33,13 +33,13 @@ setwd(workingdirectory)
 #### Use an underscore "_" or a period "." to fill the space
 
 #Check if a file exists prior to attempting to open it
-file.exists("C:\\Users\\Bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5023\\In-Class Exercises\\Data\\ozone.data.txt")
+file.exists("C:\\.data.txt")
 
 #### This loads the Ozone data
 #### sep="" represents the separator; this one is white space which
 #### includes \t (tab), \n (newline), or \r (carriage returns)
 #### If you are using a csv file, use read.csv() instead
-ozone_data = read.table("C:\\Users\\Bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5023\\In-Class Exercises\\Data\\ozone.data.txt", header=T, sep="\t")
+ozone_data = read.table("C:\\ozone.data.txt", header=T, sep="\t")
 
 #You can also browse for the file:
 data = read.table(file.choose(),header=T)
