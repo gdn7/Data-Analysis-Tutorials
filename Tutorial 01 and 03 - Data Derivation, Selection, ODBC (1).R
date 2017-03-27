@@ -1,10 +1,10 @@
 ###########################################
 #============Read in Libraries============#
-# Read in the necessary libraries. Note,	#
+# Read in the necessary libraries. Note,	
 # the commented code for installing		#
-# packages. Remove the "#" and run the	#
-# script to install them. You must be	#
-# connected to the internet to download	#
+# packages. Remove the "#" and run the	        #
+# script to install them. You must be	        #
+# connected to the internet to download	        #
 # them.						#
 ###########################################
 
