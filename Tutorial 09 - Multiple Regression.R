@@ -1,3 +1,4 @@
+
 ###########################################
 #============Read in Libraries============#
 # Read in the necessary libraries. Note,	#
@@ -28,7 +29,7 @@ library(car)	#Used for Durbin-Watson test and VIF scores
 #run the data off of your OneDrive or DropBox.		#
 #######################################################
 
-workingdirectory = "C:\\Users\\bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5223\\In-Class Exercises\Data"
+workingdirectory = "C:\\"
 setwd(workingdirectory)
 
 
@@ -121,7 +122,7 @@ rcorr(as.matrix(ozone_data))
 # variance.							#
 #################################################
 
-#### Signif. Codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#### Signif. Codes: 0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
 ozone_reg = lm(ozone_data$ozone~ozone_data$rad+ozone_data$wind+ozone_data$temp)
 summary(ozone_reg)
