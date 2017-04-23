@@ -62,12 +62,12 @@ stdt_data.dtypes
 ozone_data.boxplot()
 
 #### Radiation (IV)
-ozone_data.rad.describe()					        #Obtain descriptives
+ozone_data.rad.describe()				    #Obtain descriptives
 ozone_data.rad.plot()                               #Index plot
 ozone_data.plot.scatter(x='rad', y='ozone')         #Check for linearity
 
 #### Temperature (IV)
-ozone_data.temp.describe()					        #Obtain descriptives
+ozone_data.temp.describe()				    #Obtain descriptives
 ozone_data.temp.plot()                              #Index plot
 ozone_data.plot.scatter(x='temp', y='ozone')        #Check for linearity
 
