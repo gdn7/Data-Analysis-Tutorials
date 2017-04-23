@@ -168,6 +168,7 @@ plt.title('Assessing Homoscedasticity')
 plt.plot([-40, 120],[0, 0], 'red', lw=2)   #Add horizontal line
 plt.show()
 
+
 #QQ plot for normality
 sts.probplot(linreg2.resid, dist="norm", plot=plt)
 
