@@ -8,7 +8,7 @@
 # them.						                #
 #############################################
 
-options(digits=4)   #Useability by way of rounding
+options(digits=4)   #Useability by way of roundings
 library(forecast)
 
 
@@ -209,6 +209,7 @@ plotForecastErrors = function(forecasterrors,forecasttitle) {
     # plot the normal curve as a blue line on top of the histogram of forecast errors:
     points(myhist$mids, myhist$density, type = "l", col = "blue", lwd = 2)
 }
+
 
 #Assess normality of residuals
 plotForecastErrors(example_es3_fore$residuals,'Assessing Normal Distribution')
