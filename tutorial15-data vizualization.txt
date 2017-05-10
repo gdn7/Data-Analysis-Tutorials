@@ -9,47 +9,47 @@ ggplot(data = ) +
   
 
 #to add color
-ggplot(data = mpg) + 
+ggplot(data = ) + 
   geom_point(mapping = aes(x = , y = , color = ))
 
 #to add size
-ggplot(data = mpg) + 
+ggplot(data = ) + 
   geom_point(mapping = aes(x = , y = , size = ))
  
 # to add transparency
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, alpha = class))
+ggplot(data = ) + 
+  geom_point(mapping = aes(x = , y = , alpha = class))
 
 # to add different shapes
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+ggplot(data = ) + 
+  geom_point(mapping = aes(x = , y = , shape = class))
 
 #to change color of the plot
   
-ggplot(data = mpg) + 
-geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
+ggplot(data = ) + 
+geom_point(mapping = aes(x = , y = ), color = "blue")
 
 
 
 #adding geometric aestheics
 
-ggplot(data = mpg) +
-  geom_smooth(mapping = aes(x = displ, y = hwy))
+ggplot(data = ) +
+  geom_smooth(mapping = aes(x = , y = ))
               
-ggplot(data = mpg) +
-  geom_smooth(mapping = aes(x = displ, y = hwy, group = drv))
+ggplot(data = ) +
+  geom_smooth(mapping = aes(x = , y = , group = drv))
     
-ggplot(data = mpg) +
-  geom_smooth(mapping = aes(x = displ, y = hwy, color = drv),
+ggplot(data = ) +
+  geom_smooth(mapping = aes(x = , y = , color = drv),
     show.legend = FALSE)
 	
 	
 #adding together
-ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy)) +
-  geom_smooth(mapping = aes(x = displ, y = hwy))
+ggplot(data = ) + 
+  geom_point(mapping = aes(x = , y = )) +
+  geom_smooth(mapping = aes(x = , y = ))
   
-ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+ggplot(data = , mapping = aes(x = , y = )) + 
   geom_point(mapping = aes(color = class)) + 
   geom_smooth()
   
