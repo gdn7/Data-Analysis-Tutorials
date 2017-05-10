@@ -1,0 +1,68 @@
+
+#generalization of the ggplot 
+#ggplot(data = <DATA>) + 
+# <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
+
+
+ggplot(data = ) + 
+  geom_point(mapping = aes(x = , y = ))
+  
+
+#to add color
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = , y = , color = ))
+
+#to add size
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = , y = , size = ))
+ 
+# to add transparency
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, alpha = class))
+
+# to add different shapes
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+
+#to change color of the plot
+  
+ggplot(data = mpg) + 
+geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
+
+
+
+#adding geometric aestheics
+
+ggplot(data = mpg) +
+  geom_smooth(mapping = aes(x = displ, y = hwy))
+              
+ggplot(data = mpg) +
+  geom_smooth(mapping = aes(x = displ, y = hwy, group = drv))
+    
+ggplot(data = mpg) +
+  geom_smooth(mapping = aes(x = displ, y = hwy, color = drv),
+    show.legend = FALSE)
+	
+	
+#adding together
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) +
+  geom_smooth(mapping = aes(x = displ, y = hwy))
+  
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(mapping = aes(color = class)) + 
+  geom_smooth()
+  
+
+# Adding more features 
+#generalization 
+
+ggplot(data = <DATA>) + 
+  <GEOM_FUNCTION>(
+     mapping = aes(<MAPPINGS>),
+     stat = <STAT>, 
+     position = <POSITION>
+  ) +
+  <COORDINATE_FUNCTION> +
+  <FACET_FUNCTION>
+  
