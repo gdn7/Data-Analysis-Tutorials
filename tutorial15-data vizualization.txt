@@ -53,6 +53,10 @@ ggplot(data = , mapping = aes(x = , y = )) +
   geom_point(mapping = aes(color = class)) + 
   geom_smooth()
   
+ #Box Plot
+ggplot(train, aes(x,y)) + geom_boxplot(fill = "red")+
+scale_y_continuous("", breaks= seq(x,y, by=500))+
+labs(title = "Box Plot", x = "")
 
 # Adding more features 
 #generalization 
