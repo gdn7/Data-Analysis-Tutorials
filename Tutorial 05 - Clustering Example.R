@@ -15,7 +15,6 @@ library(tree)
 workingdirectory = "" #set the path 
 setwd(workingdirectory)
 
-
 ###########################################
 #==============Read in data===============#
 #Read in the data for tree analysis.	#
