@@ -30,11 +30,8 @@ os.getcwd()
 
 ozone_data = pd.read_table('ozone.data.txt', sep='\t')
 ozone_data
-
 ozone_data.columns
-
 ozone_data.rad
-
 ozone_data.head(5)
 
 car_data = pd.read_table('car.test.frame.txt', sep='\t')
