@@ -164,6 +164,8 @@ car_data.ix[train]
 # Adding rows and columns
 #==========================
 
+
+
 #Simple example to add 3 new rows
 newrows = [{'cohort':'November', 'death':333, 'gapsize':0.333},
            {'cohort':'November', 'death':444, 'gapsize':0.444},
