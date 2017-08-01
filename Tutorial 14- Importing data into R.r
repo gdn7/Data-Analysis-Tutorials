@@ -1,17 +1,13 @@
 
 ############################## READING DATA INTO R #############################
 
-
 #reading a file
 dataframe=read.table(file.choose(),header= ,sep= )
 
-
 ############################### Reading the TXT data ######################
-
 
 # reading TXT file
 dataframe=read.table(file.choose(),header= ) 
-
 
 ############################### Reading the CSV data ######################
 
