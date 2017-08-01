@@ -6,8 +6,7 @@
 #######################################################
 
 
-setwd("C:\\Users\\bryan\\OneDrive - Oklahoma State University\\Teaching\\MSIS 5223\\Tutorials")
-
+setwd("")
 
 ###########################################
 #==============Read in data===============#
